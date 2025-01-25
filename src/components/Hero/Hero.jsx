@@ -9,7 +9,7 @@ export default function Hero() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Heidi_Ahlgren_cv.pdf';
+    link.href = `${window.location.origin}/portfolio/Heidi_Ahlgren_cv.pdf`;
     link.target = '_blank';
     link.rel = 'noopener noreferrer'
     link.click();
